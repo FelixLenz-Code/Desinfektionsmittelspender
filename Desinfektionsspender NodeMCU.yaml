@@ -1,0 +1,52 @@
+#Initialiserung ESPHome
+esphome:
+  name: Desinfektionsspender
+  platform: ESP8266
+  board: nodemcuv2
+
+#Initialisierung Wifi
+wifi:
+  ssid: "SSID"
+  password: "Passwd"
+  manual_ip:
+    # Set this to the IP of the ESP
+    static_ip: 192.168.178.2
+    # Set this to the IP address of the router. Often ends with .1
+    gateway: 192.168.178.1
+    # The subnet of the network. 255.255.255.0 works for most home networks.
+    subnet: 255.255.255.0
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Bad Fallback Hotspot"
+    password: "qOIzMUpYerfJ"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+#Ermöglicht Zugriff auf Homeassistant
+api:
+  password: "1234"
+
+ota:
+  password: "1234"
+
+# Sensoren werden intialisiert
+
+# Digitale und Analoge Sensoren
+sensor:
+  - platform: adc
+    pin: A0
+    name: "Füllstandssensor"
+    update_interval: 120s    
+
+#Sensoren mit nur zwe Zuständen
+binary_sensor:
+  - platform: gpio
+    name: "Desinfektionsspender betätigt"
+    pin:
+        number: D5
+        mode: INPUT_PULLUP
