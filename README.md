@@ -7,7 +7,7 @@ Ein smarter Desinfektionsmittelspender, der sowohl kontaktlos funktioniert als a
 ## Hardware
 Der Arduino Nano steuert die Pumpe vollkommen autonom mithilfe des Ultraschallsensors (HC-SR04). Auch gibt er, dem mit dem WLAN verbundenen zweiten Mikrocontroller (NodeMCU bzw. ESP8266) weiter, dass der Spender benutzt wurde. Dies geschieht über ein Relais, da der Arduino mit 5V und der NodeMCU mit 3,3V arbeitet. Der NodeMCU ist außerdem mit einem Füllstandssensor ausgestattet. Der NodeMCU ist ein WLAN Entwicklerboard, ausgestattet mit einem ESP8266 Chip von Espressif, welcher auch oft in Smarthomegeräten wiederzufinden ist. 
 
-![Zeichnung](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Zeichnung.PNG "Zeichnung")
+![Zeichnung](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Desinfektionsspender%20Projekt-1.jpg "Zeichnung")
 
 ## Software
 Der NodeMCU wird mit der Software von ESPHome geflashed. Diese Software kann dann in einem lokalen Netzwerk mit einem Homeassistant Server kommunizieren und Daten wie Füllstand der Desinfektionsmittelflasche, als auch die Häufigkeit der Benutzung übertragen. In Homeassistant selber kann dann mit den Daten einiges umgesetzt werden. So kann man z.B. Benachrichtigungen verschicken wenn ein Spender bald leer wird. Auch lassen sich andere Aktoren triggern. Wie z.B. LEDs, SmartHome Lampen oder Steckdosen. Hier sind kaum Grenzen gesetzt. 
