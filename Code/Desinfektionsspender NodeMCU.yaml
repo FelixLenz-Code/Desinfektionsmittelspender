@@ -48,5 +48,5 @@ binary_sensor:
   - platform: gpio
     name: "Desinfektionsspender betätigt"
     pin:
-        number: D5
+        number: D6
         mode: INPUT_PULLUP
