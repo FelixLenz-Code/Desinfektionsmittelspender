@@ -23,8 +23,7 @@ Teileliste:
 - Arduino IDE
 - USB Kabel (micro und mini)
 - PC zum programmieren
-- 3D Drucker oder Druckdienst für das Gehäuse
-- 
+- 3D Drucker oder Druckdienst für das Gehäuse 
 
 
 
