@@ -1,7 +1,7 @@
 # Smarter Desinfektionsmittelspender
 #### [Homeassistant](https://www.home-assistant.io/ "Homeassistant") & [ESPHome](https://esphome.io/ "ESPHome")
 Ein smarter Desinfektionsmittelspender, der sowohl kontaktlos funktioniert als auch mit Benachrichtigungsfunktionen über Füllstand und Nutzung ausgestattet ist, soll entwickelt werden. 
-![enter image description here](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Spender%20Winkel%201.jpg?raw=true)
+![Bild Spender](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Spender%20Winkel%201.jpg?raw=true)
 
 
 ## Hardware
@@ -41,4 +41,4 @@ Auch kann man sich genaue Daten, in Form von Zahlen und Graphen, anzeigen lassen
 Das Ganze wird dann noch in eine schönes 3D gedrucktes Gehäuse gepackt und schon hat man seinen smarten Desinfektionsmittelspender. Die Dateien können hier aus Github oder aus Thingiverse heruntergeladen werden.
 Das Hauptteil und der Aufsatz müssen mit Support gedruckt werden! Ich habe in PLA mit 20% Infill gedruckt. 
 Der Deckel wird 2x benötigt!
-![enter image description here](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Hauptteil%20Bild.PNG?raw=true)
+![3D Zeichnung Hauptteil](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Hauptteil%20Bild.PNG?raw=true)
