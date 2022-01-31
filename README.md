@@ -38,7 +38,7 @@ Auch kann man sich genaue Daten, in Form von Zahlen und Graphen, anzeigen lassen
 ![HA Info](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/HA.PNG?raw=true)
 
 ## Gehäuse
-Das Ganze wird dann noch in eine schönes 3D gedrucktes Gehäuse gepackt und schon hat man seinen smarten Desinfektionsmittelspender. Die Dateien können hier aus Github oder aus Thingiverse heruntergeladen werden.
+Das Ganze wird dann noch in eine schönes 3D gedrucktes Gehäuse gepackt und schon hat man seinen smarten Desinfektionsmittelspender. Die Dateien können hier aus Github oder aus [Thingiverse](https://www.thingiverse.com/thing:5225847) heruntergeladen werden.
 Das Hauptteil und der Aufsatz müssen mit Support gedruckt werden! Ich habe in PLA mit 20% Infill gedruckt. 
 Der Deckel wird 2x benötigt!
 ![3D Zeichnung Hauptteil](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Hauptteil%20Bild.PNG?raw=true)
