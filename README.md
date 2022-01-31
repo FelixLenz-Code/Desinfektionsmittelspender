@@ -1,7 +1,7 @@
-# Smarter Desinfektionsmittelspender
+ Smarter Desinfektionsmittelspender
 #### [Homeassistant](https://www.home-assistant.io/ "Homeassistant") & [ESPHome](https://esphome.io/ "ESPHome")
 Ein smarter Desinfektionsmittelspender, der sowohl kontaktlos funktioniert als auch mit Benachrichtigungsfunktionen über Füllstand und Nutzung ausgestattet ist, soll entwickelt werden. 
-
+![enter image description here](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Spender%20Winkel%201.jpg?raw=true)
 
 
 ## Hardware
@@ -28,6 +28,7 @@ Teileliste:
 
 
 ![Zeichnung](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Desinfektionsspender%20Projekt-1.jpg "Zeichnung")
+![Platine](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/Platine%20Winkel%201.jpg?raw=true)
 
 ## Software
 Der NodeMCU wird mit der Software von ESPHome geflashed. Diese Software kann dann in einem lokalen Netzwerk mit einem Homeassistant Server kommunizieren und Daten wie Füllstand der Desinfektionsmittelflasche, als auch die Häufigkeit der Benutzung übertragen. In Homeassistant selber kann dann mit den Daten einiges umgesetzt werden. So kann man z.B. Benachrichtigungen verschicken wenn ein Spender bald leer wird. Auch lassen sich andere Aktoren triggern. Wie z.B. LEDs, SmartHome Lampen oder Steckdosen. Hier sind kaum Grenzen gesetzt. (Voraussetzung dafür ist eine Homeassistant Installation mit ESPHome Addon.)
@@ -35,4 +36,6 @@ Der NodeMCU wird mit der Software von ESPHome geflashed. Diese Software kann dan
 Auch kann man sich genaue Daten, in Form von Zahlen und Graphen, anzeigen lassen und auswerten. Z.B. welcher Spender wird am meisten genutzt? Wie viel Kosten hat man durchschnittlich im Monat? Wie oft muss Desinfektionsmittel nachgefüllt werden? Das alles kann man sich anzeigen lassen. 
 
 ## Gehäuse
-Das Ganze wird dann noch in eine schönes 3D gedrucktes Gehäuse gepackt und schon hat man seinen smarten Desinfektionsmittelspender. *(Dateien dazu kommen noch!)*
+Das Ganze wird dann noch in eine schönes 3D gedrucktes Gehäuse gepackt und schon hat man seinen smarten Desinfektionsmittelspender. Die Dateien können hier aus Github oder aus Thingiverse heruntergeladen werden.
+Das Hauptteil und der Aufsatz müssen mit Support gedruckt werden! Ich habe in PLA mit 20% Infill gedruckt. 
+Der Deckel wird 2x benötigt!
