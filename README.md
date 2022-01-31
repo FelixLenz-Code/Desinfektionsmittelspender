@@ -34,6 +34,7 @@ Teileliste:
 Der NodeMCU wird mit der Software von ESPHome geflashed. Diese Software kann dann in einem lokalen Netzwerk mit einem Homeassistant Server kommunizieren und Daten wie Füllstand der Desinfektionsmittelflasche, als auch die Häufigkeit der Benutzung übertragen. In Homeassistant selber kann dann mit den Daten einiges umgesetzt werden. So kann man z.B. Benachrichtigungen verschicken wenn ein Spender bald leer wird. Auch lassen sich andere Aktoren triggern. Wie z.B. LEDs, SmartHome Lampen oder Steckdosen. Hier sind kaum Grenzen gesetzt. (Voraussetzung dafür ist eine Homeassistant Installation mit ESPHome Addon.)
 
 Auch kann man sich genaue Daten, in Form von Zahlen und Graphen, anzeigen lassen und auswerten. Z.B. welcher Spender wird am meisten genutzt? Wie viel Kosten hat man durchschnittlich im Monat? Wie oft muss Desinfektionsmittel nachgefüllt werden? Das alles kann man sich anzeigen lassen. 
+
 ![HA Info](https://github.com/FelixLenz-Code/Smarter-Desinfektionsmittelspender/blob/main/Bilder/HA.PNG?raw=true)
 
 ## Gehäuse
