@@ -35,15 +35,15 @@ digitalWrite(trigger, LOW);
 dauer = pulseIn(echo, HIGH); 
 entfernung = (dauer/2) * 0.03432; 
 
-if(entfernung <= 12 && entfernung > 1) {
+if(entfernung <= 6 && entfernung > 1) {
 
     digitalWrite(Pumpe, HIGH);
-    delay(2000);
+    delay(5000);
     digitalWrite(Pumpe, LOW);  
 
-
+}
 //Ausgabe(Umsetzung)
-if(entfernung <= 12 && entfernung > 1) {
+if(entfernung <= 6 && entfernung > 1) {
 
     digitalWrite(Benachrichtigung, HIGH);
     delay(800);
@@ -51,6 +51,5 @@ if(entfernung <= 12 && entfernung > 1) {
 
 }
 
-}
 delay(4000);   
 }
